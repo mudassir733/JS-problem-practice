@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiply input numbers and divide</title>
+</head>
+
+<body>
+
+    <form style="width: 50%; padding: 20px; display: flex; flex-direction: column; gap: 10px;">
+        <label for="number-1">
+            First Number:
+            <input type="text" name="number-1" id="firstNumber">
+        </label>
+        <label for="number-2">
+            Second Number:
+            <input type="text" name="number-2" id="secondNumber">
+        </label>
+
+        <button type="button" class="multiply" style="width: 100px;">Muliply By</button>
+        <button type="button" class="divid" style="width: 100px;">Divide By</button>
+
+        <p>Result is:</p>
+        <span id="result"></span>
+    </form>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
